@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+  text-align: left;
+}
+
+header {
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+footer {
+  min-height: 100px;
+  border: 1px solid black;
+  display: block;
+}
+
+.left-side {
+  width: 200px;
+  border: 1px solid black;
+  height: 100%;
+  overflow-x: scroll;
+  max-height: 700px;
+}
+
+.right-side {
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+  max-height: 700px;
+}
+
+main {
+  max-height: 700px;
+  display: flex;
+}
+
+.container-min {
+  min-width: 1200px;
+}
+
+.container {
+  max-width: 1200px;
+}
